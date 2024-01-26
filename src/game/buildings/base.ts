@@ -11,5 +11,6 @@ export abstract class Building {
   // 시설 성능
   static tier: number = 1
   static price: number
+  static biome: number
   static effects: PartialStatEffect = {} as PartialStatEffect
 }
